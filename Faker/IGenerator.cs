@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Faker
+namespace Fakers
 {
     public interface IGenerator
     {
@@ -13,13 +13,13 @@ namespace Faker
     public class GeneratorContext
     {
         public Random Random { get; }
-        public Type TargetType { get; }
+        public Type CurrentType { get; }
         public Faker Faker { get; }
 
-        public GeneratorContext(Random random, Type targetType, Faker faker)
+        public GeneratorContext(Random random, Type currentType, Faker faker)
         {
             Random = random;
-            TargetType = targetType;
+            CurrentType = currentType;
             Faker = faker;
         }
     }

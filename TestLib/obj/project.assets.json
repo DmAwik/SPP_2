@@ -1253,6 +1253,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "Fakers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Fakers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fakers.dll": {}
+        }
       }
     }
   },
@@ -4942,10 +4952,16 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "Fakers/1.0.0": {
+      "type": "project",
+      "path": "../Faker/Fakers.csproj",
+      "msbuildProject": "../Faker/Fakers.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Fakers >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NUnit >= 3.13.1",
       "NUnit3TestAdapter >= 3.17.0",
@@ -4983,7 +4999,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\aaa\\SPP2\\SPP2\\Faker\\Fakers.csproj": {
+              "projectPath": "D:\\aaa\\SPP2\\SPP2\\Faker\\Fakers.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

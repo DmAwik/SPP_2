@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Faker/1.0.0": {
+      "Fakers/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/Faker.dll": {}
+          "bin/placeholder/Fakers.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Faker.dll": {}
+          "bin/placeholder/Fakers.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Faker/1.0.0": {
+    "Fakers/1.0.0": {
       "type": "project",
-      "path": "../Faker/Faker.csproj",
-      "msbuildProject": "../Faker/Faker.csproj"
+      "path": "../Faker/Fakers.csproj",
+      "msbuildProject": "../Faker/Fakers.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Faker >= 1.0.0"
+      "Fakers >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -58,8 +58,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\aaa\\SPP2\\SPP2\\Faker\\Faker.csproj": {
-              "projectPath": "D:\\aaa\\SPP2\\SPP2\\Faker\\Faker.csproj"
+            "D:\\aaa\\SPP2\\SPP2\\Faker\\Fakers.csproj": {
+              "projectPath": "D:\\aaa\\SPP2\\SPP2\\Faker\\Fakers.csproj"
             }
           }
         }

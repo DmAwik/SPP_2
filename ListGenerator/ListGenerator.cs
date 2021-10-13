@@ -1,5 +1,7 @@
-﻿using System;
-using Faker;
+﻿using Fakers;
+using System;
+using System.Collections;
+using System.Linq;
 
 namespace ListGenerator
 {
@@ -12,7 +14,7 @@ namespace ListGenerator
 
         public object Generate(GeneratorContext context)
         {
-            IList list = (IList)Activator.CreateInstance(context.TargetType);
+            IList list = (IList)Activator.CreateInstance(context.CurrentType);
             Type itemtype = list.GetType().GetGenericArguments().Single();
             int listlength = context.Random.Next(1, 10);
             GeneratorContext newcontext = new GeneratorContext(context.Random, itemtype, context.Faker);

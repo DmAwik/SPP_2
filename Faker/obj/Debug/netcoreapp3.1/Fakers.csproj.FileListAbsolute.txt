@@ -1,0 +1,10 @@
+D:\aaa\SPP2\SPP2\Faker\bin\Debug\netcoreapp3.1\Fakers.deps.json
+D:\aaa\SPP2\SPP2\Faker\bin\Debug\netcoreapp3.1\Fakers.dll
+D:\aaa\SPP2\SPP2\Faker\bin\Debug\netcoreapp3.1\Fakers.pdb
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Fakers.csproj.AssemblyReference.cache
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Fakers.GeneratedMSBuildEditorConfig.editorconfig
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Fakers.AssemblyInfoInputs.cache
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Fakers.AssemblyInfo.cs
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Fakers.csproj.CoreCompileInputs.cache
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Fakers.dll
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Fakers.pdb

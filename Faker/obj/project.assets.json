@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\aaa\\SPP2\\SPP2\\Faker\\Faker.csproj",
-      "projectName": "Faker",
-      "projectPath": "D:\\aaa\\SPP2\\SPP2\\Faker\\Faker.csproj",
+      "projectUniqueName": "D:\\aaa\\SPP2\\SPP2\\Faker\\Fakers.csproj",
+      "projectName": "Fakers",
+      "projectPath": "D:\\aaa\\SPP2\\SPP2\\Faker\\Fakers.csproj",
       "packagesPath": "C:\\Users\\Йа\\.nuget\\packages\\",
       "outputPath": "D:\\aaa\\SPP2\\SPP2\\Faker\\obj\\",
       "projectStyle": "PackageReference",

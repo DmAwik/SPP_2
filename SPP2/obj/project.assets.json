@@ -10,6 +10,16 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "Fakers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Fakers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fakers.dll": {}
+        }
       }
     }
   },
@@ -40,10 +50,16 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "Fakers/1.0.0": {
+      "type": "project",
+      "path": "../Faker/Fakers.csproj",
+      "msbuildProject": "../Faker/Fakers.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Fakers >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1"
     ]
   },
@@ -78,7 +94,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\aaa\\SPP2\\SPP2\\Faker\\Fakers.csproj": {
+              "projectPath": "D:\\aaa\\SPP2\\SPP2\\Faker\\Fakers.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

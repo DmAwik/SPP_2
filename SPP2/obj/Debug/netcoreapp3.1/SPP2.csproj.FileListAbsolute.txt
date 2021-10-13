@@ -14,3 +14,5 @@ D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.csproj.CopyComplete
 D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.dll
 D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.pdb
 D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.genruntimeconfig.cache
+D:\aaa\SPP2\SPP2\SPP2\bin\Debug\netcoreapp3.1\Fakers.dll
+D:\aaa\SPP2\SPP2\SPP2\bin\Debug\netcoreapp3.1\Fakers.pdb

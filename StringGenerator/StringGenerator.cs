@@ -1,5 +1,5 @@
 ﻿using System;
-using Faker;
+using Fakers;
 
 namespace StringGenerator
 {

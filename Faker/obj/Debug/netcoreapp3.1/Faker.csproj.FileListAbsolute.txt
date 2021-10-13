@@ -1,0 +1,4 @@
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Faker.GeneratedMSBuildEditorConfig.editorconfig
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Faker.AssemblyInfoInputs.cache
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Faker.AssemblyInfo.cs
+D:\aaa\SPP2\SPP2\Faker\obj\Debug\netcoreapp3.1\Faker.csproj.CoreCompileInputs.cache
