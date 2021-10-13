@@ -3,18 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPP2", "SPP2\SPP2.csproj", "{2EFA01B3-A382-43D0-8015-9FFA1066B18F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPP2", "SPP2\SPP2.csproj", "{2EFA01B3-A382-43D0-8015-9FFA1066B18F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLib", "TestLib\TestLib.csproj", "{B24BA83C-623E-49B8-970E-1E707A3886F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLib", "TestLib\TestLib.csproj", "{B24BA83C-623E-49B8-970E-1E707A3886F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generators", "Generators", "{5DA73492-A2D5-4CE5-8187-2E1D9A5120B6}"
-	ProjectSection(SolutionItems) = preProject
-		SPP2\Generators\BoolGenerator.cs = SPP2\Generators\BoolGenerator.cs
-		SPP2\Generators\DateTimeGenerator.cs = SPP2\Generators\DateTimeGenerator.cs
-		SPP2\Generators\DoubleGenerator.cs = SPP2\Generators\DoubleGenerator.cs
-		SPP2\Generators\IntGenerator.cs = SPP2\Generators\IntGenerator.cs
-		SPP2\Generators\StringGenerator.cs = SPP2\Generators\StringGenerator.cs
-	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoolGenerator", "BoolGenerator\BoolGenerator.csproj", "{AA2DFFDE-0154-40F9-8AD0-89A4A0CB91DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeGenerator", "DateTimeGenerator\DateTimeGenerator.csproj", "{4CEF9F11-34DE-4DF0-91FB-7CE23BFD6828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleGenerator", "DoubleGenerator\DoubleGenerator.csproj", "{D777D85D-F50C-44AD-9292-808EE5950D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntGenerator", "IntGenerator\IntGenerator.csproj", "{73F0F53A-07C9-4E8A-B909-728A2AC584E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringGenerator", "StringGenerator\StringGenerator.csproj", "{B38CBA3B-1459-4661-940D-001D1D1359C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListGenerator", "ListGenerator\ListGenerator.csproj", "{A6252A97-EB19-4218-8EB8-1A71678635FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faker", "Faker\Faker.csproj", "{CF47DC7C-C9C8-4946-817E-E4D7A3DC250B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,9 +37,45 @@ Global
 		{B24BA83C-623E-49B8-970E-1E707A3886F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B24BA83C-623E-49B8-970E-1E707A3886F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B24BA83C-623E-49B8-970E-1E707A3886F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2DFFDE-0154-40F9-8AD0-89A4A0CB91DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2DFFDE-0154-40F9-8AD0-89A4A0CB91DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2DFFDE-0154-40F9-8AD0-89A4A0CB91DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2DFFDE-0154-40F9-8AD0-89A4A0CB91DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CEF9F11-34DE-4DF0-91FB-7CE23BFD6828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEF9F11-34DE-4DF0-91FB-7CE23BFD6828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEF9F11-34DE-4DF0-91FB-7CE23BFD6828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEF9F11-34DE-4DF0-91FB-7CE23BFD6828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D777D85D-F50C-44AD-9292-808EE5950D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D777D85D-F50C-44AD-9292-808EE5950D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D777D85D-F50C-44AD-9292-808EE5950D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D777D85D-F50C-44AD-9292-808EE5950D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F0F53A-07C9-4E8A-B909-728A2AC584E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F0F53A-07C9-4E8A-B909-728A2AC584E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F0F53A-07C9-4E8A-B909-728A2AC584E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F0F53A-07C9-4E8A-B909-728A2AC584E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38CBA3B-1459-4661-940D-001D1D1359C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38CBA3B-1459-4661-940D-001D1D1359C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38CBA3B-1459-4661-940D-001D1D1359C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38CBA3B-1459-4661-940D-001D1D1359C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6252A97-EB19-4218-8EB8-1A71678635FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6252A97-EB19-4218-8EB8-1A71678635FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6252A97-EB19-4218-8EB8-1A71678635FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6252A97-EB19-4218-8EB8-1A71678635FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF47DC7C-C9C8-4946-817E-E4D7A3DC250B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF47DC7C-C9C8-4946-817E-E4D7A3DC250B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF47DC7C-C9C8-4946-817E-E4D7A3DC250B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF47DC7C-C9C8-4946-817E-E4D7A3DC250B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA2DFFDE-0154-40F9-8AD0-89A4A0CB91DD} = {5DA73492-A2D5-4CE5-8187-2E1D9A5120B6}
+		{4CEF9F11-34DE-4DF0-91FB-7CE23BFD6828} = {5DA73492-A2D5-4CE5-8187-2E1D9A5120B6}
+		{D777D85D-F50C-44AD-9292-808EE5950D96} = {5DA73492-A2D5-4CE5-8187-2E1D9A5120B6}
+		{73F0F53A-07C9-4E8A-B909-728A2AC584E5} = {5DA73492-A2D5-4CE5-8187-2E1D9A5120B6}
+		{B38CBA3B-1459-4661-940D-001D1D1359C5} = {5DA73492-A2D5-4CE5-8187-2E1D9A5120B6}
+		{A6252A97-EB19-4218-8EB8-1A71678635FD} = {5DA73492-A2D5-4CE5-8187-2E1D9A5120B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DEE8D371-ADD8-4549-9635-BFF6D40DD3E8}

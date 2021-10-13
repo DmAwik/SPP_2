@@ -1,0 +1,16 @@
+D:\aaa\SPP2\SPP2\SPP2\bin\Debug\netcoreapp3.1\SPP2.exe
+D:\aaa\SPP2\SPP2\SPP2\bin\Debug\netcoreapp3.1\SPP2.deps.json
+D:\aaa\SPP2\SPP2\SPP2\bin\Debug\netcoreapp3.1\SPP2.runtimeconfig.json
+D:\aaa\SPP2\SPP2\SPP2\bin\Debug\netcoreapp3.1\SPP2.runtimeconfig.dev.json
+D:\aaa\SPP2\SPP2\SPP2\bin\Debug\netcoreapp3.1\SPP2.dll
+D:\aaa\SPP2\SPP2\SPP2\bin\Debug\netcoreapp3.1\SPP2.pdb
+D:\aaa\SPP2\SPP2\SPP2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.csproj.AssemblyReference.cache
+D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.GeneratedMSBuildEditorConfig.editorconfig
+D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.AssemblyInfoInputs.cache
+D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.AssemblyInfo.cs
+D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.csproj.CoreCompileInputs.cache
+D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.csproj.CopyComplete
+D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.dll
+D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.pdb
+D:\aaa\SPP2\SPP2\SPP2\obj\Debug\netcoreapp3.1\SPP2.genruntimeconfig.cache
